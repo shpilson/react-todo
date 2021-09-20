@@ -1,2 +1,2 @@
 # react-todo
-To do List on ReactJS
+To do list on ReactJS
