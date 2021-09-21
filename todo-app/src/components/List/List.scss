@@ -1,6 +1,12 @@
 .list {
     margin-bottom: 30px;
 
+&__icon-plus {
+    path {
+        stroke: #868686;
+    }
+}
+
     li {
         display: flex;
         align-items: center;
