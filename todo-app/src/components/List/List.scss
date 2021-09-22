@@ -1,11 +1,13 @@
 .list {
     margin-bottom: 30px;
 
-&__icon-plus {
-    path {
-        stroke: #868686;
+    &__add-button {
+        opacity: 0.4;
+
+        &:hover {
+            opacity: 1;
+        }
     }
-}
 
     li {
         display: flex;
@@ -24,7 +26,7 @@
             margin-right: 8px;
             svg {
                 path {
-                    fill: #7C7C7C;
+                    fill: #7c7c7c;
                 }
             }
         }
@@ -41,11 +43,11 @@
             }
 
             &--blue {
-                background-color: #64C4ED;
+                background-color: #64c4ed;
             }
 
             &--pink {
-                background-color: #FFBBCC;
+                background-color: #ffbbcc;
             }
         }
     }
