@@ -27,7 +27,7 @@ function App() {
             },
             {
               color: 'blue',
-              name: 'Фронтенд',
+              name: 'Фронтeнд',
               active: true
             },
             {
