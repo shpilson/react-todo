@@ -9,6 +9,7 @@ import './AddButtonList.scss';
 const AddList = ({ colors }) => {
     const [visiblePopup, setVisiblePopup] = useState(false);
     const [selectedColor, selectColor] = useState(colors[0].id);
+    const myName = ('Shpilson');
 
     return (
         <div className="add-list">
@@ -23,7 +24,7 @@ const AddList = ({ colors }) => {
                             <path d="M1 8H15" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                         ),
-                        name: 'Добавить список'
+                        name: 'Добaвить список'
                     }
                 ]}
             />
