@@ -13,7 +13,7 @@ const AddList = ({ colors, onAdd }) => {
 
     const addList = () => {
         if (!inputValue) {
-            alert('Введите название списка');
+            alert('Введите название спискa');
             return;
         }
         onAdd({
