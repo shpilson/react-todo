@@ -13,7 +13,7 @@ const AddList = ({ colors, onAdd }) => {
 
     const addList = () => {
         if (!inputValue) {
-            alert('Введите нaзвание 3 cпискa');
+            alert('Введите нaзвание 4 cпискa');
             return;
         }
         onAdd({
